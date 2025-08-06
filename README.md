@@ -6,6 +6,9 @@ This project demonstrates how to build and run a basic Node.js web app inside a 
 
 ## 📁 Project Structure
 
+├── index.js
+├── package.json
+└── Dockerfile
 
 ---
 
