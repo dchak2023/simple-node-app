@@ -29,13 +29,13 @@ This project demonstrates how to build and run a basic Node.js web app inside a 
 
 ### 1. Clone the repo or place your files in a folder:
 
-```bash
+
 mkdir webapp && cd webapp
 # Add index.js, package.json, and Dockerfile here
 
-## 🚀 How to Use This Project
+### 🚀 How to Use This Project
 
-### 2️⃣ Build the Docker Image
+### 2.  Build the Docker Image
 
 ```bash
 docker build -t mynodeapp .
