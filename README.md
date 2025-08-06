@@ -67,12 +67,13 @@ docker rm -f nodeapp
 docker network rm my_custom_net
 ```
 
-📚 [Learn More](https://docs.docker.com/)
-📝 [Dockerfile Reference](https://hub.docker.com)
+### 📚 Learn More:
+📝 [Dockerfile Reference](https://docs.docker.com/engine/reference/builder/)
 
-🐳 Node.js Official Image
+🐳 [Node.js Official Image](https://hub.docker.com/_/node/)
 
-🚀 Express.js Framework
+🚀 [Express.js Framework](https://expressjs.com/)
 
-🧑‍💻 Author
+### 🧑‍💻 Author:
+
 Built with ❤️ by [dchak2023](https://github.com/dchak2023)
