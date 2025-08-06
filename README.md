@@ -27,13 +27,13 @@ This project demonstrates how to build and run a basic Node.js web app inside a 
 
 ## 🧪 How to Use
 
-### 1. Clone the repo or place your files in a folder:
+### 1️⃣ Clone the repo or place your files in a folder:
 ```
 mkdir webapp && cd webapp
 ```
 #### Add index.js, package.json, and Dockerfile here
 
-### 2.  Build the Docker Image
+### 2️⃣  Build the Docker Image
 ```
  docker build -t mynodeapp .
 ```
@@ -55,20 +55,20 @@ docker run --rm --network my_custom_net alpine \
   sh -c "apk add --no-cache curl && curl web:3000"
 ```
 
-### Output:
+### 6️⃣ Output:
 You should see:
 ```
 Hello from the custom app container!
 ```
-🧼 Cleanup
+### 🧼 Cleanup
 To stop and remove everything:
-
+```
 docker rm -f nodeapp
 docker network rm my_custom_net
+```
 
-
-📚 Learn More
-📝 Dockerfile Reference
+📚 [Learn More](https://docs.docker.com/)
+📝 [Dockerfile Reference](https://hub.docker.com)
 
 🐳 Node.js Official Image
 
