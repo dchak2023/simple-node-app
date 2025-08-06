@@ -4,7 +4,7 @@ RUN apk add --no-cache tini
 
 WORKDIR /usr/src/app
 
-COPY package.json package.json
+COPY package.json .
 
 RUN npm install && npm cache clean --force
 
